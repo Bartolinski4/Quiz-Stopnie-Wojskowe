@@ -67,6 +67,8 @@ function wyswietlPytanie(nr) {
         przycisk.addEventListener("click", () => {
             przyciski.forEach(przycisk => {
                 przycisk.classList.remove("active");
+                const radio = przycisk.querySelector('input[type="radio"]');
+                if (radio) radio.checked = false;
             });
 
             zaznaczona = przycisk.id;
@@ -77,6 +79,13 @@ function wyswietlPytanie(nr) {
 }
 
 document.querySelector('.dalej').addEventListener("click", () => {
+    const przyciski = document.querySelectorAll('.przyciskBox');
+    przyciski.forEach(przycisk => {
+        przycisk.classList.remove('active');
+        const radio = przycisk.querySelector('input[type="radio"]');
+        if (radio) radio.checked = false;
+    });
+
     nrPytania++;
 
     const obliczenia = zaznaczona.replace("odpowiedz", '#odpowiedz')
