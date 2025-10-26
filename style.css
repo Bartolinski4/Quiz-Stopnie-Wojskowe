@@ -1,0 +1,128 @@
+* {
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    gap: 20px;
+
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    padding: 25px 100px;
+}
+
+.nrPytania {
+    color: lightgray;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pytanie {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.odpowiedzi {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.active {
+    background-color: rgb(169, 169, 169, 0.5);
+    border-color: #2fb46a;
+    transition: all 0.3s ease-in-out;
+}
+
+.przyciskBox {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 2px;
+    font-size: 16px;
+    padding: 5px 2px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+}
+
+.przyciskBox:hover {
+    background-color: rgb(169, 169, 169, 0.5);
+    transition: all 0.3s ease-in-out;
+    transform: translateY(1px);
+    border-color: #2fb46a;
+}
+
+.odpowiedzi {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: 'Inter', system-ui, Arial, sans-serif;
+}
+
+
+input {
+    position: absolute;
+    opacity: 0;
+}
+
+.przyciskBox::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+    background: #fff;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.przyciskBox.active::after {
+    border-color: #2fb46a;
+    background: radial-gradient(circle at 35% 35%, #2fb46a 0%, #0ea370 80%);
+    box-shadow: 0 0 0 3px rgba(47, 180, 106, 0.15);
+}
+
+.dalej {
+    position: relative;
+    opacity: 1;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    width: 100px;
+    padding: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.dalej:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(169, 169, 169, 0.4);
+}
+
+.jeszczeRaz {
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    width: 100px;
+    padding: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.jeszczeRaz:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(169, 169, 169, 0.4);
+}
