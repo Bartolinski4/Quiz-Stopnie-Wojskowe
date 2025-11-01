@@ -1,14 +1,14 @@
-# 🏅 Stopnie Wojskowe – Quiz
+# 🪖 Quizy Wojskowe
 
-Poznaj i utrwal stopnie wojskowe w praktycznym quizie. Sprawdź swoją wiedzę, wybierając poprawną odpowiedź spośród czterech możliwości i zobacz, ile pytań uda Ci się rozwiązać poprawnie!
+Wybierz jeden z dwóch dostępnych trybów i sprawdź swoją wiedzę w wygodnej, interaktywnej formie. Teraz możesz trenować zarówno rozpoznawanie stopni wojskowych, jak i znajomość alfabetu fonetycznego NATO.
 
 ---
 
-## 🎮 Funkcje
+## 🎮 Tryby gry
 
-- 🪖 Rozpoznawanie stopni wojskowych w formie quizu
-- ❓ Cztery możliwe odpowiedzi – tylko jedna prawidłowa
-- 👉 Możliwość zaznaczenia odpowiedzi i przejścia do kolejnego pytania
+- 🪖 Tryb rozpoznawania stopni wojskowych – cztery możliwe odpowiedzi, tylko jedna prawidłowa
+- 🔤 Tryb alfabetu fonetycznego NATO – zadaniem jest wpisanie poprawnego słowa
+- 👉 Możliwość zaznaczenia lub wpisania odpowiedzi i przejścia do kolejnego pytania
 - 🔢 Wskaźnik postępu – informacja, które pytanie jest aktualnie rozwiązywane
 - 🧾 Podsumowanie wyników na końcu quizu
 - 🎨 Przejrzysty i responsywny interfejs
@@ -29,7 +29,7 @@ Projekt został stworzony przy użyciu czystych technologii webowych:
 
 1. Sklonuj repozytorium:  
    ```bash
-   git clone https://github.com/Bartolinski4/Quiz-Stopnie-Wojskowe.git
+   git clone https://github.com/Bartolinski4/Quizy-Wojskowe.git
     ```
 2. Otwórz plik index.html w przeglądarce.
 3. Gotowe! 🎉
