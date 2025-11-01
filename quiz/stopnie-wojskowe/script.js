@@ -1,5 +1,4 @@
 let przyciski = '';
-
 for (i = 1; i <= 4; i++) {
     przyciski = przyciski + '<label class="przyciskBox" id="odpowiedz' + i + '"> </span></label>'
 }
@@ -31,7 +30,7 @@ let zaznaczona;
 
 function wyswietlPytanie(nr) {
     document.querySelector('.nrPytania').innerHTML = nrPytania + ' / ' + ilePytan;
-    document.querySelector('.pytanie').innerHTML = '<img src="./img/' + nr + '.png"><br>Co to za stopień?';
+    document.querySelector('.pytanie').innerHTML = '<img src="../img/stopnie/' + nr + '.png"><br>Co to za stopień?';
 
     let zaznaczenie = '';
     const poprawnaLiczba = Math.floor(Math.random() * 4 + 1);

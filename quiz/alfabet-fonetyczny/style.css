@@ -1,0 +1,124 @@
+* {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.powrot {
+    position: absolute;
+    color: gray;
+    top: 10px;
+    left: 10px;
+}
+
+.nauka {
+    position: absolute;
+    color: gray;
+    top: 10px;
+    right: 10px;
+}
+
+.ikonka {
+    color: gray;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ikonka:hover {
+    background-color: rgba(169, 169, 169, 0.4);
+    cursor: pointer;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    gap: 20px;
+
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    padding: 25px 100px;
+
+    max-height: 85vh;
+}
+
+.nrPytania {
+    color: lightgray;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pytanie {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.odpowiedz {
+    background-color: rgb(169, 169, 169, 0.5);
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: rgb(169, 169, 169, 0.5);
+    border-color: #2fb46a;
+    transition: all 0.3s ease-in-out;
+}
+
+.dalej {
+    position: relative;
+    opacity: 1;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    width: 100px;
+    padding: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.dalej:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(169, 169, 169, 0.4);
+}
+
+.jeszczeRaz {
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    width: 100px;
+    padding: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.jeszczeRaz:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(169, 169, 169, 0.4);
+}
+
+/* Nauka */
+
+.naglowek {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.col1, .col2 {
+    padding: 20px;
+    font-size: 20px;
+}
